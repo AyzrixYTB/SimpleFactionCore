@@ -19,7 +19,6 @@ class CPlayer extends Player {
     }
 
     public function teleportToDeathPosition() {
-        var_dump(self::$lastDeathPosition);
         if ($this->hasLastDeathPosition()) {
             $this->teleport(self::$lastDeathPosition);
             self::$lastDeathPosition = null;
