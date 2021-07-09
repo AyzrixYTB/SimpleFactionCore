@@ -1,0 +1,5 @@
+name: SimpleFactionCore
+author: Ayzrix
+version: 1.0.0
+main: Ayzrix\Faction\Main
+api: 3.0.0
